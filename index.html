@@ -104,23 +104,116 @@
                 <p>The final result</p>
             </section>
             <section>
-                <img src="img/hbatt.jpg" height="400">
-                <p>Plug the LiPo battery into the socket</p>
+                <p>In todays workshop we will be working with Adressable LED's and something called a microcontroller to program them. Let's talk about that.
+                </p>
             </section>
             <section>
-                <img src="img/wiring1.png" height="400">
-                <p>Using jumper wires, make these connections. You will have to push the battery wires aside a bit</p>
+                <h4>WHAT IS A MICROCONTOLLER:</h4>
+                <p>We know what a computer looks like. It usually has a keyboard, monitor, CPU (Central Processing Unit), printer, and a mouse. These types of computers, like the Mac or PC, are primarily designed to communicate (or “interface”) with humans.
+                </p>
             </section>
             <section>
-                <img src="img/wiring2.jpg" height="600">
-                <p>The final result</p>
+                <h4>WHAT IS A MICROCONTOLLER:</h4>
+                <p>There are also small computers all around,quietly running programs and quietly doing calculations. These computers are in your car, on the Space Shuttle, a small toy, and maybe even inside your refrigerator.</p>
             </section>
 
+            <section>
+                <img src="img/m1.png" height="200">
+                <img src="img/m2.png" height="200">
+                <img src="img/m3.png" height="200">
+                <img src="img/te.png" height="200">
+            </section>
+            <section>
+                <h4>WHAT IS A MICROCONTOLLER:</h4>
+                <p>We call these devices “microcontrollers”. Micro because they’re small, and controller because they “control” machines, gadgets, whatever!
+                    <br><br> They’re cool because, you can build a machine or device, write programs to control it and then let it work for you automatically. And they are cheap!</p>
+            </section>
+            <section>
+                <h4>WHAT IS A MICROCONTOLLER:</h4>
+                <p>Typically with a microcontroller you upload 1 program and it executes it over and over very efficiently without the overhead of a large operating system</p>
+            </section>
+            <section>
+                <img src="img/mc2.png" height="300">
+                <img src="img/mc3.jpg" height="300">
+                <img src="img/mc4.jpg" height="200">
+            </section>
+            <section>
+                <img src="img/photon_button.jpg" height="300">
+                <img src="img/huzzah.png" height="300">
+                <img src="img/onion.jpg" height="200">
+            </section>
+            <section>
+                <h4>ARDUINO</h4>
+                <img src="img/ard.jpg" height="600">
+            </section>
+            <section>
+                <h4>WHAT IS ARDUINO:</h4>
+                <p>Arduino is an open source physical computing platform based on a simple input/output (I/O) board and a development environment that implements the Processing language (www.processing.org).<br><br> Arduino can be used to develop standalone
+                    interactive objects or can be connected to software on your computer (such as Flash, Processing, NodeJS or Max/MSP). !
+                </p>
+            </section>
+            <section>
+                <iframe width="1120" height="630" src="https://www.youtube.com/embed/UoBUXOOdLXY" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section>
+                <h3>Arduino is composed of two major parts:</h3>
+                <ul>
+                    <li>The Arduino board, which is the piece of hardware you program to control your projects.</li>
+                    <li>The Arduino IDE, the piece of software you run on your computer. You use the IDE to create a sketch(a program) that you upload to the Arduino board. The sketch tells the board what to do.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>KEY TERMS</h3>
+                <ul>
+                    <li>“sketch” – a program you write to run on an Arduino board</li>
+                    <li>“pin” – an input or output connected to something. e.g. output to an LED, input from a knob.</li>
+                    <li>“digital” – value is either HIGH or LOW. (aka on/off, one/zero) e.g. switch state</li>
+                    <li>“analog” – value ranges, usually from 0-255. e.g. LED brightness, motor speed, etc.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>THE ARDUINO HARDWARE</h4>
+                <p>The Arduino board is a microcontroller board, which is a small circuit (the board) that contains a whole computer on a small chip (the micro- controller). This computer is at least a thousand times less powerful than the MacBook I’m using
+                    to write this, but it’s a lot cheaper and very useful to build interesting devices. !
+                </p>
+            </section>
+            <section>
+                <h4>THE ARDUINO SOFTWARE (IDE)</h4>
+                <p>The IDE (Integrated Development Environment) is a program running on your computer that allows you to write sketches for the Arduino board in a simple language modeled after the Processing (www.processing.org) language.
+                </p>
+            </section>
+            <section>
+                <h4>THE ARDUINO SOFTWARE (IDE)</h4>
+                <p>The magic happens when you upload the sketch to the board: the code that you have written is translated from the Arduino C-like language, and is compiled into a language that the micro controller understands.
+                    <br><br> This last step is quite important, because it’s where Arduino makes your life easy by hiding away as many of the complexities of programming microcontrollers.</p>
+            </section>
+            <section>
+                <h4>The programming cycle on Arduino is basically as follows:</h4>
+                <ul>
+                    <li>Plug your board into a USB port on your computer.</li>
+                    <li>Write a sketch that will make your board do something.</li>
+                    <li>Upload this sketch to the board through the USB connection and wait a couple of seconds for the board to restart.</li>
+                    <li>The board executes the sketch that you wrote.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>THE ARDUINO HARDWARE</h4>
+                <p>Back in 2007, there was one aduino hardware board that we could program with the arduino IDE, now it supports many many boards
+                </p>
+            </section>
+            <section>
+                <p>The Microcontroller we will be using today is called the ESP8266 and we will be using the Arduino programming environment to program it.</p>
+                <img src="img/hiesp.png" height="500">
+            </section>
             <section>
                 <p>The ESP8266 is a low-cost Wi-Fi chip with full TCP/IP stack and MCU (Micro Controller Unit) capability produced by Shanghai-based Chinese manufacturer, Espressif Systems.</p>
             </section>
             <section>
-                <p>The Huzzah is a mini Arduino with Wifi, that is $10.00!</p>
+                <p>Specifically, we will be using the ESP8266 based Adafruit Huzzah</p>
+                <img src="img/huz1.jpg" height="300">
+            </section>
+            <section>
+                <p>The Huzzah is like a mini Arduino with Wifi, that is $16.00!</p>
                 <br>
             </section>
             <section>
@@ -149,7 +242,15 @@
                     <br><img src="img/brdmgr.png" height="400">
                 </p>
             </section>
-
+            <section>
+                <p>Set board to Adafruit Huzzah and Set port to SLAB..etc</p><br>
+                <p>Upload Blink from the code folder</p>
+                <br>
+            </section>
+            <section>
+                <p>Great! We will come back to more programming later now lets talk about addressable LEDs</p><br>
+                <br>
+            </section>
             <section>
                 <h3>Introduction to Addressable LEDS</h3>
                 <img src="img/wsring.png" height="200">
@@ -158,10 +259,10 @@
             </section>
             <section>
                 <h3>Basic LEDS Need a lot of Wiring</h3>
-                <img src="img/led.png" height="300">
+                <img src="img/led.png" height="300"><img src="img/charlie.jpg" height="300">
             </section>
             <section>
-                <h3>Addressable LEDs provide circuitry to communicate serially</h3>
+                <h3>Addressable LEDs provide circuitry to communicate serially and they typically have RGB</h3>
                 <img src="img/WS2812_c.jpg" height="300">
             </section>
             <section>
@@ -172,6 +273,11 @@
                 <h3>They are chainable, fairly cheap and have their own resistors etc..</h3>
                 <img src="img/wall.jpg" height="400">
                 <h3>You can drive 10000's from 1 microcontroller</h3>
+            </section>
+            <section>
+                <p>The most common today are called the WS2812, the chip was created by the World Semi Corp</p>
+                <img src="img/wsimg.png" height="300"><br>
+                <a href="https://cdn-shop.adafruit.com/datasheets/WS2812.pdf">Datasheet</a>
             </section>
             <section>
                 <p>Adafruit has branded these Neopixels</p>
@@ -198,21 +304,64 @@
                 <p>Let's try some examples and write our own code!</p>
             </section>
             <section>
-                <img src="img/huzzah_1.png" height="400">
-                <p>From right to left connect batt, 2, gnd</p>
+                <img src="img/hbatt.jpg" height="400">
+                <p>Plug the LiPo battery into the socket</p>
             </section>
             <section>
-                <img src="img/huzzah_2.jpg" height="500">
+                <img src="img/wiring1.png" height="400">
+                <p>Using jumper wires, make these connections. You will have to push the battery wires aside a bit</p>
+            </section>
+            <section>
+                <img src="img/wiring2.jpg" height="600">
+            </section>
+            <section>
+                <img src="img/first.jpg" height="500">
                 <p>Plug in the single LED 5v -> Batt,DI -> 2,GND -> GND</p>
             </section>
             <section>
                 <p>Let's upload firstlight from the code folder</p>
             </section>
             <section>
-                <p>Replace the single LED with your stip 5v -> Batt,DI -> 2,GND -> GND</p>
+                <p>Plug in the USB and upload firstlight</p>
+            </section>
+            <section>
+                <p>While we are here go into Arduino Preferences and turn on line numbers</p>
+            </section>
+            <section>
+                <img src="img/strip4.jpg" height="500">
+                <p>Now let connect our strip 5v -> Batt,DI -> 2,GND -> GND</p>
+            </section>
+            <section>
+                <p>It's only lighting up 1 led, we need to change that on line 16</p><br>
+                <p>Adafruit_NeoPixel strip = Adafruit_NeoPixel(1, PIN, NEO_GRB + NEO_KHZ800);</p>
+                <p>Adafruit_NeoPixel strip = Adafruit_NeoPixel(28, PIN, NEO_GRB + NEO_KHZ800);</p>
             </section>
             <section>
                 <p>Coding Excercise</p>
+            </section>
+            <section>
+                <p>Let's upload simple from the code folder</p>
+            </section>
+            <section>
+                <p>Let's upload simple_forloop from the code folder</p>
+            </section>
+            <section>
+                <p>Let's upload simple_forloop_rand from the code folder</p>
+            </section>
+            <section>
+                <p>Let's upload simple_forloop_rand_function from the code folder</p>
+            </section>
+            <section>
+                <p>Let's upload simple_forloop_rand_function from the code folder</p>
+            </section>
+            <section>
+                <p>Let's upload simple_forloop_func_w_args from the code folder</p>
+            </section>
+            <section>
+                <p>Let's upload simple_forloop_func_w_argsfl from the code folder</p>
+            </section>
+            <section>
+                <p>Write you own!</p>
             </section>
             <section>
                 <p>Wifi</p>
@@ -220,7 +369,6 @@
             <section>
                 <a href="https://github.com/kitesurfer1404/WS2812FX">WS2812FX Library!</a>
             </section>
-
             <section>
                 <p>FastLED</p>
                 <a href="http://fastled.io/">Fast LED Library</a>
